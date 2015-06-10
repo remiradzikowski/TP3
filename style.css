@@ -8,6 +8,11 @@ body
 	background-size: cover ;
 	background-position:center; 
 }
+
+a{ color: #CA0101; text-decoration: none;}
+
+a:hover{color: #000000; transition: 0.5s;}
+
 #container
 {
 	padding: 0;
@@ -26,9 +31,12 @@ body
 	background-repeat: no-repeat;
 	background-size: cover ;
 	background-position:center; 
+	border-bottom: 4px solid #CA0101;
 }
 
-#header h1 { margin: 0; }
+#header h1 { margin: 0; margin-top: 7px; color: #CA0101; text-align: center; }
+
+h2{ color: #CA0101}
 
 #navigation
 {
@@ -102,6 +110,12 @@ div.element
 	opacity: 0.8;
 }
 
+div.element:hover{
+	border: 1px solid #CA0101;
+	background-color: #fdfdfd;
+	transition: 0.5s;
+}
+
 div.element img
 {
 	background-color : #fff;
@@ -134,10 +148,12 @@ h2,h3
 	background: #ccc;
 	text-align: left;
 	font-weight: bold;
-	padding: 20px;
+	padding: 2px;
 	height: 1%;
 	background-image: url('bas.jpg');
 	background-repeat: no-repeat;
 	background-size: cover ;
 	background-position:center; 
+	color: white;
+	font-size: 8pt;
 }
