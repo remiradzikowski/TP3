@@ -2,7 +2,7 @@ body
 {
 	padding: 0;
 	margin: 0 ;
-	background-image: url('paysage.jpg');
+	background-image: url('ronds.jpg');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover ;
@@ -22,12 +22,10 @@ body
 	padding: 20px;
 	background: #ccc;
 	height:50px;
-	background-image: url('frise.jpg');
-	background-repeat: repeat-x;
+	background-image: url('haut.jpg');
+	background-repeat: no-repeat;
 	background-size: cover ;
-	background-position:bottom; 
-	background-size: 75px;
-	background-color: white;
+	background-position:center; 
 }
 
 #header h1 { margin: 0; }
@@ -130,11 +128,6 @@ h2,h3
 	text-align: center;
 }
 
-h1, h2 {
-	font-family: "PakType Naqsh", sans-serif;
-}
-
-
 #footer
 {
 	clear: both;
@@ -143,6 +136,7 @@ h1, h2 {
 	font-weight: bold;
 	padding: 20px;
 	height: 1%;
+	background-image: url('bas.jpg');
 	background-repeat: no-repeat;
 	background-size: cover ;
 	background-position:center; 
