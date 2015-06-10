@@ -147,3 +147,9 @@ h1{
 	border-top-style: solid;
 	border-top-width: 5px;
 }
+
+a{
+	color: red;
+	font-family: "PakType Naqsh", sans-serif;
+	text-decoration: none;
+}
