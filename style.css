@@ -134,6 +134,9 @@ h1, h2 {
 	font-family: "PakType Naqsh", sans-serif;
 }
 
+h1{
+	text-align: center;
+}
 
 #footer
 {
