@@ -141,7 +141,7 @@ h1{
 #footer
 {
 	clear: both;
-	background: #ccc;
+	background: white;
 	text-align: left;
 	font-weight: bold;
 	padding: 20px;
@@ -149,4 +149,6 @@ h1{
 	background-repeat: no-repeat;
 	background-size: cover ;
 	background-position:center; 
+	border-top-style: solid;
+	border-top-width: 5px;
 }
